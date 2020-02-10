@@ -1,0 +1,6 @@
+#fullBody{
+    -fx-background-image: url("background example.jpeg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+}
