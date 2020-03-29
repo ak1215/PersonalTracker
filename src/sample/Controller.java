@@ -6,8 +6,6 @@ import java.util.Calendar;
 import java.util.Random;
 
 public class Controller {
-    int current = 0;
-    int current2 = 0;
     private Label dailyQuotes;
     ArrayList<String> randomQuotes = new ArrayList<>();
 
@@ -22,8 +20,8 @@ public class Controller {
 
     public void randomNr() {
         Random random = new Random();
-        int myRand = random.nextInt(randomQuotes.size());
-        current = myRand;
+        String myRand = randomQuotes;
+        String current = myRand;
         dailyQuotes.setText(randomQuotes.get(myRand));
         System.out.println(dailyQuotes);
     }
